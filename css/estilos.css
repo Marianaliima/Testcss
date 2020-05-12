@@ -1,6 +1,7 @@
 body    {
     background-image: url(https://image.freepik.com/vetores-gratis/molecule-structure-abstract-tech-background_41981-858.jpg);
-    background-size:auto 100vh;
+    center center no-repeat;
+    background-size: cover;
     font-family: Verdana;  
     height: 100vh;
   }
