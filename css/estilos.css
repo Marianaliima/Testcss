@@ -1,11 +1,44 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body    {
-    background-image: url(https://image.freepik.com/vetores-gratis/background-techno-abstrato-com-pontos-de-conexao_1048-6093.jpg);
-    background-size:auto 100vh;
+    background-image: url('../img/background.jpg');
+    background-size:cover;
     font-family: Verdana;  
-    height: 100vh;
+    font-size: 12px;
+  }
+/*se a tela tiver pelo menos 400px vai carregar estes estilos*/
+  @media (min-width: 400px) {
+    body {
+      font-size: 14px;
+    }
+
+  }
+
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+
   }
   
+  header {
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+ .menu {
+   background-color:whitesmoke;
+   position: fixed;
+   width:100vw;
+   top: 0;
+
+}
   
   .menu ul {
     display: flex;
@@ -15,6 +48,12 @@ body    {
   
   .menu li {
    list-style: none; 
+  }
+
+  .menu a {
+  display: block;
+  padding: 10px 20px;
+
   }
   
   a {
@@ -27,10 +66,21 @@ body    {
   }
   .site-subtitle,
   .site-title{
-    color: purple;
+    color: whitesmoke;
     text-align: center;
+  }
+
+  .site-title {
+    font-size: 4em;
   }
   
   .site-subtitle {
     font-style: italic;
   }
+
+  .img-portfolio {
+
+   width: 180px;
+   height:180px;
+  }
+
