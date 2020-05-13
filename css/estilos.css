@@ -1,4 +1,4 @@
-body    {
+ibody    {
     background-image: url(https://image.freepik.com/vetores-gratis/background-techno-abstrato-com-pontos-de-conexao_1048-6093.jpg);
     background-size:auto 100vh;
     font-family: Verdana;  
@@ -26,7 +26,7 @@ body    {
   }
   .site-subtitle,
   .site-title{
-    color: purple;
+    color: whitesmoke;
     text-align: center;
   }
   
